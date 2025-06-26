@@ -18,6 +18,7 @@ class TgBot:
         return TgBot(token=token, admins_ids=admin_ids)
 
 
+@dataclass
 class Config:
     tg_bot: TgBot
 
